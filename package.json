@@ -6,10 +6,22 @@
   "author": "Greg <gharrison@upperquadrant.com>",
   "license": "MIT",
   "dependencies": {
+    "babel-loader": "^6.2.10",
+    "css-loader": "^0.26.1",
+    "lodash": "^4.17.4",
+    "node-sass": "^4.2.0",
+    "postcss-loader": "^1.2.1",
     "react": "^15.4.2",
+    "react-dom": "^15.4.2",
     "react-router": "^3.0.0",
+    "reactstrap": "^4.0.0-alpha.8",
     "redux": "^3.6.0",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
+  },
+  "scripts": {
+    "start": "webpack"
   }
 }
